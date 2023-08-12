@@ -1,7 +1,7 @@
 const apiKey = 'ngB2sCGHPWX2SGWlz5qe0Dwz8MNRn9Pp';
 
 import { useState } from 'react';
-import { AddCategory, GiFGrid } from './components';
+import { AddCategory, GifGrid } from './components';
 
 
 export const GifExpertApp = () => {
@@ -28,7 +28,7 @@ export const GifExpertApp = () => {
 
      {
      categories.map(category =>(
-               <GiFGrid 
+               <GifGrid 
                     key={category} 
                     category={category}/>
                
